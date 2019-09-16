@@ -2,5 +2,9 @@
   height: 320px;
   width: 235px;
   overflow: hidden;
-  background-color: red; /*temporario*/
+  /* background-color: red; temporario */
+
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 1fr 48px 48px 48px 48px 48px;
 }
